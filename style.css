@@ -1,9 +1,3 @@
-body {
-    text-align: center;
-    font-size: large;
-    color: white;
-}
-
 p {
     text-shadow: 0 0 10px #FC0;
     color: yellow;
@@ -19,9 +13,14 @@ html {
     display: grid;
     justify-content: center;
     min-block-size: -webkit-fill-available;
+    align-items: center;
 }
 
 body {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    
     background-color: #176AD1;
     background-image: url('https://pbs.twimg.com/profile_banners/756309533266419713/1702747650');
     background-position-x: right;
