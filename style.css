@@ -1,11 +1,30 @@
 body {
-    display: block;
-    margin: 12px;
-    background: black;
-    color: white;
+    text-align: center;
     font-size: large;
+    color: white;
 }
 
 p {
+    text-shadow: 0 0 10px #FC0;
     color: yellow;
+    background-color: black;
+    outline: inset;
+    text-align: center;
+    padding: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+html {
+    display: grid;
+    justify-content: center;
+    min-block-size: -webkit-fill-available;
+}
+
+body {
+    background-color: #176AD1;
+    background-image: url('https://pbs.twimg.com/profile_banners/756309533266419713/1702747650');
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
 }
